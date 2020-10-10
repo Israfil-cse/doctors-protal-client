@@ -1,0 +1,11 @@
+.care_img{
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
+}
+.img-container{
+    padding: 0 5px;
+}
+.btn{
+    background: #1cc7c1;
+}

@@ -1,0 +1,31 @@
+.form-parent{
+    height: 700px;
+}
+.contact_form{
+    height: 620px;
+    background-image: url('../../../images/Apoinment-bg.png');
+    position: relative;
+    background-position: 0 -400px;
+    top: 100px;
+    z-index: 1;
+}
+.contact_form::before{
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgb(36, 41, 73);
+    top: 0;
+    opacity: .9;
+    z-index: -1;
+}
+.text-container{
+    padding-top: 40px;
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 40px;
+}

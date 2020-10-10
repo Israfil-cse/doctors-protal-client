@@ -1,0 +1,24 @@
+.parent{
+    height: 550px;
+}
+.make_apoinment{
+    height: 400px;
+    background-image: url('../../../images/Apoinment-bg.png');
+    position: relative;
+    background-position: 0 -400px;
+    top: 100px;
+}
+.make_apoinment::before{
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgb(36, 41, 73);
+    top: 0;
+    opacity: 0.9;
+}
+.doctor_img{
+    height: 530px;
+   transform:translateY(-130px);
+}

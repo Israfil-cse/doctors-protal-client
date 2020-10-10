@@ -1,0 +1,15 @@
+.testContainer{
+    height: 500px;
+}
+.quteImg{
+    height: 180px;
+    float: right;
+}
+.testmonial_parent{
+    width: 80%;
+    padding: 30px;
+    border: 1px solid whitesmoke;
+    box-shadow: 5px 5px 5px whitesmoke;
+    border-radius:10px;
+   margin-left: 40px;
+}
